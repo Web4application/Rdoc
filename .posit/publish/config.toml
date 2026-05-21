@@ -1,0 +1,6 @@
+...
+
+[python]
+version = '3.12.4'
+package_file = 'requirements.txt'
+package_manager = 'pip'
