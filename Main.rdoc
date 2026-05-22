@@ -1,0 +1,93 @@
+============================================================
+                MENU
+============================================================
+
+[context]
+-  model: lmlm
+-  region: Global
+-  date: April
+
+[user_activities]
+  - session_start
+  - session_end
+  - profile_update
+  - preference_set
+  - permission_request
+  - device_switch
+  - interaction_trace
+  - feedback_submit
+
+[identity_activities]
+  - session_create
+  - identity_bind
+  - device_link
+  - role_switch
+  - permission_control
+  - reputation_update
+
+[context_activities]
+  - region_detect
+  - time_anchor
+  - session_snapshot
+  - context_switch
+  - state_restore
+
+[signal_activities]
+  
+
+[intelligence_activities]
+  - prompt_execute
+  - script_generate
+  - multi_agent_session
+  - summarization
+  - debate_
+
+[media_activities]
+  - audio_generate
+  - podcast_publish
+  - clip_extract
+  - format_convert
+
+
+[interaction_activities]
+  - listen
+  - queue_build
+  - skip_signal
+  - rate_content
+  - share_content
+  - live_participation
+
+[memory_activities]
+  - session_store
+  - history_graph
+  - preference_model
+  - cross_device_sync
+  - context_recall
+
+[control_activities]
+  - route_stream
+  - load_balance
+  - fallback_switch
+  - cache_manage
+  - system_monitor
+
+[publishing_activities]
+  - doc_generate
+  - social_clip_export
+  - thumbnail_generate
+  - content_package
+  - schedule_release
+
+[edge_activities]
+  - sdr_ingest
+  - satellite_relay
+  - global_sync
+  - edge_replication
+  - low_latency_route
+
+[state]
+  mode: idle
+  session: inactive
+  signal: offline
+
+============================================================
